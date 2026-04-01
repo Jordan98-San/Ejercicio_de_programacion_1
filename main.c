@@ -5,21 +5,18 @@ int main() {
   int numero_final;
   int incremento = 0;
 
-  printf("%s", "Ingrese el numero inicial");
+  printf("%s", "Ingrese el numero inicial:\n");
   scanf("%d", &numero_inicial);
 
-  printf("%s", "Inicie el numero final");
+  printf("%s", "Inicie el numero final:\n");
   scanf("%d", &numero_final);
 
-  printf("%s", "Ingrese el valor de incremento de la secuecia");
+  printf("%s", "Ingrese el valor de incremento de la secuencia:\n");
   scanf("%d", &incremento);
 
   for (int i = numero_inicial; i <= numero_final; i += incremento) {
-    printf("%d", i);
+    printf("Numero -> %d\n", i);
   }
 
-  // for (int i = 0; i <= 10; i++) {
-  // printf("%d\n", i);
-  // }
   return 0;
 }
